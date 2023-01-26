@@ -1,0 +1,21 @@
+h1 {
+    background-color: #d18c1d;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+li {
+    background-color: #c0a9db;
+    margin: 15px;
+}
+
+p {
+    height: 400px;
+    width: 600px;
+    border: 2px dotted black;
+    background-color: #d1d631;
+}
+a:link {
+    border-bottom: 3px dashed blue;
+    background-color: #a1a1a1;
+}

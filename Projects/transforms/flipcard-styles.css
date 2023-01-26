@@ -1,0 +1,121 @@
+
+body {
+    color: #d9b64e;        
+    background-color: #0d0d0d;
+    border: 5px solid #f2b807;
+    font-size: 15px;
+    line-height: 25px;
+
+    text-align: center;
+    }
+    
+h1 {
+    color: #f2b807;
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Roboto', sans-serif;
+    }
+
+hr{
+    color: #f2b807;
+    }  
+    
+p {
+    color: #735703;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    font-size: 110%;
+    }
+    
+a {
+    color: #f2b807;
+    }
+
+a:link {
+    color: #d9b64e;
+    }
+
+a:visited {
+    color: #a6a6a6;
+    }
+
+a:hover {
+    color: #f2b807;
+    }
+
+a:active {
+    color: #735703;
+    }
+
+table {
+    width: 50%;
+    margin: auto;
+}
+
+.card-container {
+    cursor: pointer;
+    height: 150px;
+    perspective: 600px;
+    position: relative;
+    width: 150px;
+}
+
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 4px;
+    align-items: center;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+.card {
+    background-color: #735703;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    line-height: 50px;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    text-align: center;
+    border: 2px solid #f2b807;
+}
+.card .side {
+    backface-visibility: hidden;
+    border-radius: 2px;
+    text-align: center;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    width: 200px;
+}
+
+.card .back {
+    background-color: #735703;
+    line-height: 150px;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.instructions {
+    text-align: center;
+}
+
+#navigation {
+    width: 150px;
+    border: 3px;   
+    padding: 15px;   
+    margin: auto;
+    background-color: #735703;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
